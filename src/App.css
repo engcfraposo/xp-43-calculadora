@@ -1,0 +1,59 @@
+div.background-calc{
+  background-color: #49e25d;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.background-calc div.calc {
+  background-color: #8A2BE2;
+  padding: 2.125rem;
+  border-radius: 0.625rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  cursor: pointer;
+}
+
+div.background-calc div.calc h1 {
+  background-color: #FFF;
+  width: 14.375rem;
+  height: 3.75rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: right;
+  padding: 0.938rem;
+}
+
+div.background-calc div.calc table {
+  padding-top: 1.25rem;
+}
+
+table tr td button.calc-button {
+  width: 3.125rem;
+  height: 3.125rem;
+  font-size: 1.5rem;
+  background-color: rgb(31,31,31);
+  border: none;
+  color: #fff;
+  margin: 0.118rem;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+table tr td button.equals {
+  height: 106px;
+}
+
+table tr td button.zero {
+  width: 106px;
+}
+
+tr td button.calc-button:hover{
+  background-color: purple;
+}
